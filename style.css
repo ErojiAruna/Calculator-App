@@ -35,11 +35,24 @@
   cursor: pointer;
   margin: 10px;
 }
-#gray-button {
+
+form input.operator:hover {
+  background-color: rgb(165, 164, 164);
+}
+
+form input.number:hover {
+  background-color: rgb(165, 164, 164);
+}
+
+form input.operator {
   background-color: rgb(212, 210, 210);
 }
-#orange-button {
+form input.equal-operator {
   background-color: orange;
+}
+
+form input.equal-operator:hover {
+  background-color: rgb(255, 89, 0);
 }
 
 form .display {
@@ -54,4 +67,8 @@ form .display input {
   flex: 1;
   font-size: 45px;
   box-shadow: none;
+}
+
+form .display:hover {
+  background-color: none;
 }
