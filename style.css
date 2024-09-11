@@ -15,7 +15,7 @@
 }
 
 .calculator {
-  background: #e4e4e4;
+  background: #f7fafb;
   padding: 20px;
   border-radius: 10px;
 }
@@ -32,4 +32,26 @@
   background: transparent;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
+  margin: 10px;
+}
+#gray-button {
+  background-color: rgb(212, 210, 210);
+}
+#orange-button {
+  background-color: orange;
+}
+
+form .display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+
+form .display input {
+  text-align: right;
+  padding: 20px;
+  flex: 1;
+  font-size: 45px;
+  box-shadow: none;
 }
